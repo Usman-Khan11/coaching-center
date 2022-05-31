@@ -1,0 +1,593 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Excellent Coaching Center</title>
+  <link rel="icon" href="images/title-logo.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+
+<body onload="myFunction()">
+
+  <!------pre loader------>
+  <div id="loader">
+    <div class="inner-loader"></div>
+    <div class="inner-loader"></div>
+    <div class="inner-loader"></div>
+    <div class="inner-loader"></div>
+    <div class="inner-loader"></div>
+  </div>
+  <!-------End------------->
+
+  <header>
+    <div class="bnr">
+      <div class="lyt">
+
+        <!----------NAVIGATON--------->
+        <nav class="navbar navbar-expand-lg  navbar-dark">
+
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="250"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto mr-3">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="courses.html">COURSES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="result.html">RESULTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact page.html">CONTACT</a>
+              </li>
+              <li>
+                <button class="btn-1" onclick="login()">LOGIN</button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!---------NAVIGATION END------------>
+
+        <!----------Main text--------->
+        <div class="col-md-12 col-lg-12 col-sm-12">
+          <h1 class="h-1">ONLINE LEARNING <br>CENTRE</h1>
+          <br>
+          <p class="para">Build skills with courses, certificates , and degree online form<br>world class universities
+            and companies</p>
+          <br>
+          <button class="btn-2" onClick="regform()">Join for Free</button>
+          <br><br><br>
+        </div>
+        <!---------Main text end------->
+
+      </div>
+    </div>
+  </header>
+
+  <section class="p-5" data-aos="fade-down" data-aos-duration="1000">
+    <div class="container">
+      <h1 class="h-s text-center">About Us</h1>
+      <hr class="main-line bg-dark">
+      <br><br>
+      <div class="row">
+
+        <!-------About Us Image------->
+        <div class="col-md-6">
+          <img src="images/about-img.png" width="100%">
+        </div>
+        <!------------END--------->
+
+        <!----------About Us Text---------->
+        <div class="col-md-6">
+          <p class="text-justify mt-2">Excellent Coaching Centre is an institution established in the year 2001 with the
+            aim of providing quality education to students so that they can make their own way in this competitive
+            world. Till today Excellent Coaching centre along with its sister concern 'Career Alley' provide guidance to
+            thousands of students in Pakistan. Many of our students are now successfully placed in their respective
+            field. The sole objective and vision of our teachers are to provide quality education with concept building
+            techniques so that the students can excel in their careers. Even after 19 years of our journey, we continue
+            to work hard for introducing new ideas and systems to provide our students the best of all. We Offer
+            following course......</p>
+          <button class="btn-info p-2 font-weight-bold " onclick="abt()">See more</button>
+        </div>
+        <!-----------END----------->
+      </div>
+      <hr>
+    </div>
+  </section>
+
+
+
+  <section data-aos="zoom-in" data-aos-duration="800">
+    <div class="container">
+      <div class="row">
+        <!---------New Skill Section--------->
+        <div class="col-md-6">
+          <h1 class="h-s text-justify">Learn new skills online with top educators</h1>
+          <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with
+            vulnerable children and young people.
+          </p>
+          <br><br>
+          <i class="fa fa-check icons"></i> Techniques to engage effectively with vulnerable children and young people.
+          <br><br>
+          <i class="fa fa-check icons"></i> Join millions of people from around the world learning together.
+          <br><br>
+          <i class="fa fa-check icons"></i> Join millions of people from around the world learning together. Online
+          learning is as easy and natural.
+          <br>
+        </div>
+        <!-----------New Skill Section End--------->
+
+        <!---------New Skill Image----------->
+        <div class="col-md-6">
+          <img src="images/image-removebg-preview (2).png" width="100%" class="animated">
+        </div>
+        <!----------END---------->
+
+      </div>
+    </div>
+  </section>
+  <hr>
+
+  <section class="p-5" data-aos="fade-down" data-aos-duration="500">
+    <h1 class="h-s">Our Feauture Courses</h1>
+    <hr class="main-line bg-dark">
+    <div class="container">
+      <br>
+      <br>
+      <div class="row">
+
+        <!----------COURSE 1--------->
+        <div class="col-lg-4 col-md-4">
+          <img src="images/bcom pic.jpg" width="100%" height="200px" class="text-center">
+          <br><br>
+          <h3 align="center" class="font-weight-bold">B.com/BBA</h3>
+          <p>The institute is providing coaching for graduation students in various subjects. We prepare students to
+            score more in their exams as well as making them industry ready by guiding them for the practice follow by
+            various industries. Batches are available for both regular college students as well as students of school of
+            open learning.......
+          </p>
+
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star-half icons "></i>
+          <h4 class="float-right">RS 50000/-</h4>
+
+          <button class="btn-3 font-weight-bold" onClick="bcom()">View More</button>
+          <br><br>
+        </div>
+        <!----------COURSE 1 END---------->
+
+        <!-------COURSE 2--------->
+        <div class="col-lg-4 col-md-4">
+          <img src="images/IX X XI XII pic.jpg" width="100%" height="200px" class="text-center">
+          <br><br>
+          <h3 align="center" class="font-weight-bold">SSC/HSC </h3>
+
+          <p>Expertise coaching for academic classes from class 8th to 12th. We are specialised in CBSE coaching
+            essential to score good marks in boards. Our classes provide a unique combination of CBSE practice as well
+            as strong foundation for competitions.
+          </p>
+          <br>
+
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star-half icons"></i>
+          <h4 class="float-right">RS 40000/-Year</h4>
+
+          <button class="btn-3 font-weight-bold" onClick="inter()">View More</button>
+          <br><br>
+        </div>
+        <!---------COURSE 2 END--------->
+
+        <!----------COURSE 3---------->
+        <div class="col-lg-4 col-md-4">
+          <img src="images/BBA BCA pic.jpg" width="100%" height="200px" class="text-center">
+          <br><br>
+          <h3 align="center" class="font-weight-bold">ECAT/MCAT</h3>
+
+          <p>Entrance exam coaching is provided through our sister concern Career Alley, which is a pioneer institute in
+            Dwarka for entrance exam preparation with a track record of 93% selections in GGSIPU in various courses. We
+            have our own study material which systematically explain each practice on each topic.
+          </p>
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star icons "></i>
+          <i class="fa fa-star-half icons "></i>
+          <h4 class="float-right">RS 20000/-</h4>
+
+          <button class="btn-3 font-weight-bold" onClick="bba()">View More</button>
+        </div>
+        <!----------COURSE 3 END--------->
+
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="p-5" data-aos="fade-up" data-aos-duration="1700">
+    <div class="container">
+
+      <!---------WHY JOIN LEARN section----------->
+      <h1 class="h-s">WHY JOIN LEARN</h1>
+      <hr class="main-line bg-dark">
+      <p class="m-auto w-50 text-center">Education is an important tool which is very useful in everybody's life Join
+        courses with the best schedule and enjoy fun and interactive classes.</p>
+      <!----------END---------->
+
+      <div class="row mt-5">
+        <br><br>
+
+        <!----------Expert Teachers Section----------->
+        <div class="col-md-1">
+          <i class="fa fa-trophy fa-3x icons"></i>
+        </div>
+
+        <div class="col-md-5">
+          <h4 class="h-u">Expert Teachers</h4>
+          <p>Expert teachers are aware of what they are doing; they monitor and adjust their teaching behaviours to
+            bring out the best in their students. One of the reasons that teaching is a complex business is because it
+            revolves around decision making.</p>
+        </div>
+        <!---------END--------->
+
+        <!--------Trusted Certifications Section--------->
+        <div class="col-md-1">
+          <i class="fa fa-check-circle fa-3x icons"></i>
+        </div>
+
+        <div class="col-md-5">
+          <h4 class="h-u">Trusted Certifications</h4>
+          <p>A certification of trust (or "trust certificate") is a short document signed by the trustee that simply
+            states the trust's essential terms and certifies the trust's authority without revealing private details of
+            the trust that aren't relevant to the pending transaction.</p>
+        </div>
+        <!---------END--------->
+      </div>
+
+      <div class="row mt-3">
+        <br><br>
+        <!---------Audio lessons Section--------->
+        <div class="col-md-1">
+          <i class="fa fa-microphone fa-3x icons"></i>
+        </div>
+
+        <div class="col-md-5">
+          <h4 class="h-u">Audio lessons</h4>
+          <p>Audio lessons are a very important factor in learning languages because they help you hear how words are
+            pronounced and also provide you with an extra means of learning other than reading.</p>
+        </div>
+        <!---------EMD--------->
+
+        <!-----------Video lessons Section---------->
+        <div class="col-md-1">
+          <i class="fa fa-video-camera fa-3x icons"></i>
+        </div>
+
+        <div class="col-md-5">
+          <h4 class="h-u">Video lessons</h4>
+          <p>A video lesson or lecture is a video which presents educational material for a topic which is to be
+            learned. The format may vary. It might be a video of a teacher speaking to the camera.</p>
+        </div>
+        <!---------END--------->
+      </div>
+      <hr>
+    </div>
+  </section>
+
+  <!---------------FLIP BOX SECTION---------------------->
+  <section class="p-3" data-aos="fade-up">
+    <div class="container">
+      <h1 class="h-s">OUR VISION</h1>
+      <hr class="main-line bg-dark">
+      <br><br>
+      <div class="row w-100">
+
+        <!------Chairman Section----------->
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+          <div class="flip-1">
+            <div class="flip-front shadow">
+              <i class="fa fa-user-circle-o fa-5x text-success mt-4"></i>
+              <h3 class="mt-4 font-weight-bold">Chairman</h3>
+            </div>
+            <div class="flip-back shadow">
+              <h3 class="mt-3">Chairman</h3>
+              <br>
+              <h4 class="font-weight-bold">Hamza Ahmed Faridi</h4>
+              <br>
+              <button class="p-2 btn-dark" onClick="chairman()">Readmore</button>
+            </div>
+          </div>
+          <br>
+        </div>
+        <!----------------END------------------->
+
+        <!----------Director section---------->
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center ">
+          <div class="flip-1">
+            <div class="flip-front shadow">
+              <i class="fa fa-user-circle-o fa-5x text-warning mt-4"></i>
+              <h3 class="mt-4 font-weight-bold">Director</h3>
+            </div>
+            <div class="flip-back shadow">
+              <h3 class="mt-3">Director</h3>
+              <br>
+              <h4 class="font-weight-bold">Basim Ahmed Faridi</h4>
+              <br>
+              <button class="p-2 btn-dark" onClick="director()">Readmore</button>
+            </div>
+          </div>
+          <br>
+        </div>
+        <!------------------END----------------->
+
+        <!-----------Admission Criteria section----------->
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+          <div class="flip-1">
+            <div class="flip-front shadow">
+              <i class="fa fa-check-circle-o fa-5x text-danger mt-4"></i>
+              <h3 class="mt-4 font-weight-bold">Criteria</h3>
+            </div>
+            <div class="flip-back shadow">
+              <h3 class="mt-3">Criteria</h3>
+              <br>
+              <h4 class="font-weight-bold">Admission Criteria</h4>
+              <br>
+              <button class="p-2 btn-dark" onClick="criteria()">Readmore</button>
+            </div>
+          </div>
+          <br>
+        </div>
+        <!-------------------END-------------------->
+
+        <!--------------Admission Policy Section------------>
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+          <div class="flip-1">
+            <div class="flip-front shadow">
+              <i class="fa fa-bars fa-5x text-primary mt-4"></i>
+              <h3 class="mt-4 font-weight-bold">Policies</h3>
+            </div>
+            <div class="flip-back shadow">
+              <h3 class="mt-3">Policies</h3>
+              <br>
+              <h4 class="font-weight-bold">Admission Policies</h4>
+              <br>
+              <button class="p-2 btn-dark" onClick="policy()">Readmore</button>
+            </div>
+          </div>
+          <br>
+        </div>
+        <!----------------END-------------------------->
+      </div>
+    </div>
+    <hr>
+  </section>
+  <!-------------FLIP BOX END------------------>
+
+
+
+  <!-------Teachers Section---------->
+  <section class="p-5" data-aos="fade-down" data-aos-duration="2000">
+    <div class="container">
+      <h1 class="h-s">OUR TEACHERS</h1>
+      <hr class="main-line bg-dark">
+      <br><br>
+      <div class="row">
+        <!--------Teacher 1-------->
+        <div class="col-lg-3 col-md-6">
+          <img src="images/teacher-1.jpg" class="rounded-circle high-box" width="100%">
+          <br><br>
+          <h3 class="text-center font-weight-bold">Osama Ali</h3>
+          <h4 class="text-center bg-dark text-white p-2">M.S CHEMISTRY <br> (NEDUET)</h4>
+          <br><br>
+        </div>
+        <!--------END--------->
+
+        <!--------Teacher 2--------->
+        <div class="col-lg-3 col-md-6">
+          <img src="images/teacher-2.jpg" class="rounded-circle high-box" width="100%">
+          <br><br>
+          <h3 class="text-center font-weight-bold">Ammar Razi</h3>
+          <h4 class="text-center bg-dark text-white p-2">M.S APPLIIED MATH <br> (NEDUET)</h4>
+          <br><br>
+        </div>
+
+        <!------END-------->
+
+        <!--------Teacher 3-------->
+        <div class="col-lg-3 col-md-6">
+          <img src="images/teacher-3.jpg" class="rounded-circle high-box" width="100%">
+          <br><br>
+          <h3 class="text-center font-weight-bold">Basim Ahmed </h3>
+          <h4 class="text-center bg-dark text-white p-2">M.S PHYSICS <br> (NEDUET)</h4>
+          <br><br>
+        </div>
+
+        <!--------END------->
+
+        <!-------Teacher 4-------->
+        <div class="col-lg-3 col-md-6 ">
+          <img src="images/teacher-4.jpg" class="rounded-circle high-box" width="100%">
+          <br><br>
+          <h3 class="text-center font-weight-bold">Shoaib Rana</h3>
+          <h4 class="text-center bg-dark text-white p-2">M.A ENGLISH <br> (K.U)</h4>
+          <br><br>
+        </div>
+        <!-------END------->
+      </div>
+      <hr>
+    </div>
+  </section>
+  <!----------Teachers Section END----------->
+
+  <section class="p-5" data-aos="fade-right" data-aos-duration="1000">
+    <div class="container">
+      <div class="row">
+
+        <!-------personal and professional goals Image-------->
+        <div class="col-md-6">
+          <img src="images/new-step-img.png" width="100%">
+        </div>
+        <!--------END-------->
+
+        <!---------personal and professional goals TEXT--------->
+        <div class="col-md-6">
+          <br>
+          <h2 class="h-s text-justify">Take the next step toward your personal and professional goals with us.</h2>
+          <br>
+          <p class="text-muted">The automated process all your website tasks. Discover tools and techniques to engage
+            effectively with vulnerable children and young people.</p>
+          <br>
+          <button class="btn-4" onClick="regform()">Join Now For Free</button>
+        </div>
+        <!--------END-------->
+      </div>
+      <hr>
+    </div>
+  </section>
+
+
+  <!-- ======= Footer ======= -->
+
+  <!---------Newsletter Section------------->
+  <section class="jumbotron text-center">
+    <h1 class="font-weight-bold h-s">Join Our Newsletter</h1>
+    <hr class="main-line bg-dark">
+    <p class="w-50 m-auto">Keep up on our always evolving product features and technology. Enter your e-mail and
+      subscribe to our newsletter.</p>
+    <br>
+    <input type="text" class="w-25 p-2">
+    <button class="btn-dark btn-lg mr-auto">Subscribe</button>
+  </section>
+  <!------------------END---------------->
+
+  <footer>
+    <div class="container">
+      <br><br>
+      <div class="row">
+
+        <!-------logo & Detail section----------->
+        <div class="col-md-3">
+          <img src="images/logo.png" width="100%" class="mt-4">
+          <br><br>
+          <p class="font-weight-bold mt-3">
+            Kausar Town indus Mehran, Karachi
+            Near PSO Petrol Pump<br>
+            Phone: 0334-0207822<br>
+            Email: Excellentcoachin54@.com
+          </p>
+        </div>
+        <!-------END------------>
+
+        <!---------Useful links section------------>
+        <div class="col-md-3">
+          <div class="">
+
+            <ul>
+              <h4 class="font-weight-bold mt-4 text-danger">Useful Links</h4>
+              <br>
+              <li>Home</li>
+              <li onclick="abt()">About us</li>
+              <li>Services</li>
+              <li onclick="con()">Contact us</li>
+              <li onclick="policybtn()">Policy</li>
+            </ul>
+          </div>
+        </div>
+        <!-------------END---------------->
+
+        <!---------Management section-------------->
+        <div class="col-md-3">
+
+          <ul class="mt-">
+            <h4 class="font-weight-bold mt-4 text-danger">Management</h4>
+            <br><br>
+            <li onclick="chairman()">Chairman</li>
+            <li onclick="director()">Director</li>
+            <li onclick="faculty()">Faculty</li>
+            <li onclick="criteria()">Criteria</li>
+          </ul>
+        </div>
+        <!------------END--------------->
+
+        <!-------------Social----------->
+        <div class="col-md-3">
+          <h4 class="font-weight-bold mt-4 text-danger">Social Network</h4>
+          <br>
+          <p>Follow us on social media for any queries.</p>
+          <br>
+          <i class="fa fa-facebook-square fa-2x fb p-1"></i>
+          <i class="fa fa-instagram fa-2x ig p-1"></i>
+          <i class="fa fa-twitter fa-2x tw p-1"></i>
+          <i class="fa fa-google-plus fa-2x gl p-1"></i>
+          <i class="fa fa-whatsapp fa-2x wt p-1"></i>
+        </div>
+        <!------------END--------------->
+      </div>
+      <!---------Copyright------------->
+      <div class="mt-5 text-center">
+        <h5 class="text-center">© Copyright <span class="text-danger font-weight-bold">Excellent Coaching Center.</span>
+          All Rights Reserved</h5>
+        <br>
+      </div>
+      <!--------------END------------->
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <!-------AOS Library------->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-------------------->
+
+
+
+  <!------JS LINK-------->
+  <script src="javascript/main.js"></script>
+  <!------------------------------>
+</body>
+
+</html>

@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Entrance Exam</title>
+<link rel="icon"  href="images/title-logo.png">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+
+<body onLoad="myFunction()">
+<!------pre loader------>
+ <div id="loader">
+    <div class="inner-loader"></div>
+    <div class="inner-loader"></div>
+    <div class="inner-loader"></div>
+    <div class="inner-loader"></div>
+    <div class="inner-loader"></div>
+</div>
+ <!-------End------------->
+<header>
+	<!----------NAVIGATON--------->
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="200"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+  
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto mr-3">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+         </li> 
+         <li class="nav-item">
+           <a class="nav-link active" href="courses.html">COURSES</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="about-us.html">ABOUT</a>
+        </li> 
+         <li class="nav-item">
+           <a class="nav-link" href="result.html">RESULTS</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="contact page.html">CONTACT</a>
+       </li>  
+        <li>
+          <button class="btn-1" onclick="login()">LOGIN</button>
+        </li>  
+    </ul>
+  </div> 
+</nav>
+   <!---------NAVIGATION END------------>
+
+</header>
+
+<section class="mt-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+	<div class="container">
+           <h2 class="font-weight-bold text-dark">Entrance Exam Courses</h2>
+           <br>
+           <p class="text-muted">Career Alley has been found exclusively for providing imparting coaching for various entrance courses offered all over the country. A student can choose his desired course from a wide range of courses to make his/her career. Moreover we provide a unique blend of more than one course so that student need not to pay huge sum of money, but he will get coaching for more than one course.</p>
+           <br>
+    	<div class="row">
+             <!-------BBA/BS section------->
+        	<div class="col-lg-6 col-md-8">
+               <div class="bg-dark text-white">
+                    <img src="images/entrance-img-1.webp" width="150" class="">
+                   <h4 class="float-right text-center mr-5 mt-3 font-weight-bold">Bachelor in Business<br>Administration<br>(BBA/BBS) </h4>
+               </div>   
+                <br>
+             <p>Bachelor in business administration is a course for those who wants to explore the business environment with their knowledge and skills. It is an undergraduate course for MBA, provides exposure to the field at early stages. It creates a foundation for the students who wants to sneak into prominent management institutions. More over in today’s world it also provide employment opportunity through campus placement as well.</p>
+             
+               <button class="btn-dark p-2" onClick="bbs()">See More</button>
+               <hr>
+            </div>
+            <!------Completed------->
+            
+            <!-------BS in Computer Section------->
+            <div class="col-lg-6 col-md-8">
+               <div class="bg-dark text-white">
+               <img src="images/entrance-img-2.webp" width="150">
+            <h4 class="float-right text-center mr-4 mt-4 font-weight-bold">Bachelor in Computer<br>Application (BBA/BBS)</h4>
+              </div>
+              <br>
+             <p>Bachelor of computer application is for those students who like to enter into the world of software development. There is still a huge potential for the students in this field since it is just a beginning of computer field in India. Career Alley provides entrance course for BCA from various universities. Special attention is provided to those who do not have maths in 12th standard. Maths is compulsory for entrance test.</p>
+             
+               <button class="btn-dark p-2" onClick="comp()">See More</button>
+               <hr>
+            </div>
+        </div>
+         <!-------Completed-------->
+         
+         <div class="row">
+            <!-------LLB section------>
+         	<div class="col-lg-6 col-md-8">
+                <div class="bg-dark text-white">
+               <img src="images/entrance-img-3.webp" width="150">
+            <h4 class="float-right text-center mr-5 mt-5 font-weight-bold">LLB (5 year/ 3year) </h4>
+              </div>
+              <br>
+             <p>LLB is offered by various university all over the country. Mostly universities offer 5 year integrated course such as BA.LLB or BBA.LLB to the students of different streams. Some universities offer 3 year course also. 5 year course is for 12th pass students whereas 3 year course is for graduate students. This course is for those students who like to entre into the world of Indian law. 5 Year course provides dual degree to students</p>
+             
+               <button class="btn-dark p-2 " onClick="llb()">See More</button>
+               <hr>
+            </div>
+           <!---------Completed-----------> 
+           
+           <!--------Hotel Management section-------->
+            <div class="col-lg-6 col-md-8">
+                <div class="bg-dark text-white">
+               <img src="images/entrance-img-4.webp" width="150" class="">
+            <h4 class="float-right text-center mr-4 mt-4 font-weight-bold">Hotal Management,<br>BJMC & other courses </h4>
+              </div>
+              <br>
+             <p>Career Alley also offers entrance test preparation for hotel management and journalism offered by various universities. These are specialized courses for students who wants to make their career in Hotel industry and mass media respectively. These industries has a huge potential since these are still unexploited and the difference between demand and supply is huge.</p>
+             <br>
+               <button class="btn-dark p-2" onClick="hotel()">See More</button>
+               <hr>
+            </div>
+            <!---------Completed-------->
+         </div>
+    </div> 
+</section>
+
+
+<!-- ======= Footer ======= -->
+
+ <!---------Newsletter Section------------->
+<section class="jumbotron text-center">
+  <h1 class="font-weight-bold h-s">Join Our Newsletter</h1>
+  <hr class="main-line bg-dark">
+   <p class="w-50 m-auto">Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
+   <br>
+    <input type="text" class="w-25 p-2" >
+    <button class="btn-dark btn-lg mr-auto">Subscribe</button>
+</section>
+<!------------------END---------------->
+
+<footer>
+  <div class="container-lg">
+    <br><br>
+      <div class="row">
+
+          <!-------logo & Detail section----------->
+          <div class="col-md-3">
+              <img src="images/logo.png" width="100%" class="mt-4">
+                <br><br>
+                <p class="font-weight-bold mt-3">
+                  Kausar Town indus Mehran, Karachi
+          Near PSO Petrol Pump<br>
+          Phone: 0334-0207822<br>
+          Email: Excellentcoachin54@.com
+                </p>
+            </div>
+          <!-------END------------>
+
+           <!---------Useful links section------------>
+            <div class="col-md-3">
+              <div class="">
+             
+                <ul>
+                   <h4 class="font-weight-bold mt-4 text-danger">Useful Links</h4>
+                   <br>
+                    <li>Home</li>
+                    <li onclick="abt()">About us</li>
+                    <li>Services</li>
+                    <li onclick="con()">Contact us</li>
+                    <li onclick="policybtn()">Policy</li>
+                </ul>
+              </div>
+            </div>
+            <!-------------END---------------->
+
+            <!---------Management section-------------->
+            <div class="col-md-3">
+             
+                <ul class="mt-">
+                   <h4 class="font-weight-bold mt-4 text-danger">Management</h4>
+                   <br><br>
+                  <li onclick="chairman()">Chairman</li>
+                    <li onclick="director()">Director</li>
+                    <li onclick="faculty()">Faculty</li>
+                    <li onclick="criteria()">Criteria</li>
+                </ul>
+            </div>
+            <!------------END--------------->
+
+            <!-------------Social----------->
+            <div class="col-md-3">
+              <h4 class="font-weight-bold mt-4 text-danger">Social Network</h4>
+                <br>
+                <p>Follow us on social media for any queries.</p>
+                <br>
+                <i class="fa fa-facebook-square fa-2x fb p-1"></i>
+                <i class="fa fa-instagram fa-2x ig p-1"></i>
+                <i class="fa fa-twitter fa-2x tw p-1"></i>
+                <i class="fa fa-google-plus fa-2x gl p-1"></i>
+                <i class="fa fa-whatsapp fa-2x wt p-1"></i>
+            </div>
+            <!------------END--------------->
+        </div>
+        <!---------Copyright------------->
+        <div class="mt-5 text-center">
+              <h5 class="text-center">© Copyright <span class="text-danger font-weight-bold">Excellent Coaching Center.</span> All Rights Reserved</h5>
+              <br>
+        </div>
+          <!--------------END------------->
+    </div>
+</footer>
+  <!-- End Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<!-------AOS Library------->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<!-------------------->
+
+
+
+<!------JS LINK-------->
+<script src="javascript/main.js"></script>
+<!------------------------------>
+</body>
+</html>
